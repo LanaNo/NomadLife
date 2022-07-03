@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MyNomadLife</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/index.css" />
+    <link rel="stylesheet" href="build/style-index.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-logo-text float-left">
+          <a class="ha" href="<?php echo site_url()?>"><strong>MyNomadLife</strong></a>
+          </h1>
+        <div class="site-header__menu group">
+          <nav class="main-navigation">
+            <ul>
+                <li><a href="<?php echo site_url()?>">Home</a></li>
+                <li><a href="<?php echo site_url('/about-me')?>">About me</a></li>
+                <li><a href="<?php echo site_url('/my-scottish-adventures')?>">Blog</a></li>
+                <li><a href="<?php echo site_url('/share-your-adventure')?>">Share your adventures</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-banner">
+      <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/tartan.jpg')?>)"></div>
+      <div class="page-banner__content container t-center c-white">
+        <h1 class="headline headline--large">LIFE IS AN ADVENTURE</h1>
+      </div>
+      </div>
+
+    <div class="hero-slider-slide">
+      <div data-glide-el="track" class="glide__track">
+        <div class="glide__slides">
+        
+          <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/JS1.jpg')?>)">
+            <div class="hero-slider__interior container">
+              <div class="hero-slider__overlay">
+                <h2 class="headline headline--large t-center">My Scottish adventures</h2>
+                <p class="t-center"></p>
+                <p class="t-center no-margin"><a href="<?php echo site_url('/my-scottish-adventures')?>" class="btn btn--blue">Find more about my Scottish adventure</a></p>
+              </div>
+            </div>
+          </div>
+
+          <footer class="site-footer">
+            <div class="site-footer__inner container container--narrow">
+              <div class="group">
+                <div class="site-footer__col-one">
+                  <h1 class="school-logo-text school-logo-text--alt-color">
+                    <img class="logo" src="<?php echo get_theme_file_uri('/images/logo1.png')?>" height="120px" width="120px">
+                    <a class="fot-link" href="<?php echo site_url()?>"><strong>MyNomadLife</strong></a>
+                  </h1>
+                  <p>EXPLORE THE WORLD</p>
+                </div>
+      
+                <div class="site-footer__col-two-three-group">
+                  <div class="site-footer__col-two">
+                    <h3 class="headline headline--large-medium">Explore</h3>
+                    <nav class="nav-list">
+                      <ul>
+                      <li><a href="<?php echo site_url()?>">Home</a></li>
+                      <li><a href="<?php echo site_url('/about-me')?>">About me</a></li>
+                      <li><a href="<?php echo site_url('/my-scottish-adventures')?>">Blog</a></li>
+                      <li><a href="<?php echo site_url('/share-your-adventures')?>">Contact Form</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+      
+                  <div class="site-footer__col-three">
+                    <h3 class="headline headline--large-medium">Privacy</h3>
+                    <nav class="nav-list">
+                      <ul>
+                        <li><a href="<?php echo site_url('/privacy-policy')?>">Privacy policy</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+
+                <div class="site-footer__col-four">
+                  <h3 class="headline headline--large-medium">Connect With Us</h3>
+                  <nav>
+                    <ul class="min-list social-icons-list group">
+                      <li>
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                        <a href="https://www.facebook.com/My-Nomad-Life-103170282375169" class="fa fa-facebook"></a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <h7 class="author-headline--small">Lana Novak © 2022</h7>
+            </div>
+      
+          </footer>
+      
+      </body>
+      </html>
+
+    <script src="build/index.js"></script>
+  </body>
+</html>
+
